@@ -1,0 +1,103 @@
+.cont {
+    background: #0f172a;
+    padding: 50px 20px;
+    min-height: 80vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hu {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #38bdf8, #818cf8, #f472b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.zx {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #94a3b8;
+}
+
+.all-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cardx, .cardz1  {
+    background: #1e293b;
+    width: 300px;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(56, 191, 248, 0.305);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardz2{
+     background: #1e293b;
+    width: 300px;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(56,189,248,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.cardx:hover, .cardz1:hover, .cardz2:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 30px rgba(56,189,248,0.4);
+}
+
+.cardx h2, .cardz1 h2, .cardz2 h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #38bdf8;
+}
+
+/* Base button style */
+button {
+    display: inline-block;
+    margin: 6px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* 🎨 Individual button colors */
+.html-btn { background: #e34c26; box-shadow: 0 0 15px #e34c26; }
+.css-btn { background: #264de4; box-shadow: 0 0 15px #264de4; }
+.js-btn { background: #f0db4f; color: black; box-shadow: 0 0 15px #f0db4f; }
+.react-btn { background: #61dafb; color: black; box-shadow: 0 0 15px #61dafb; }
+.redux-btn { background: #764abc; box-shadow: 0 0 15px #764abc; }
+.bootstrap-btn { background: #7952b3; box-shadow: 0 0 15px #7952b3; }
+.tailwind-btn { background: #38bdf8; color: black; box-shadow: 0 0 15px #38bdf8; }
+
+.java-btn { background: #f89820; box-shadow: 0 0 15px #f89820; }
+.spring-btn { background: #6db33f; box-shadow: 0 0 15px #6db33f; }
+.mysql-btn { background: #00758f; box-shadow: 0 0 15px #00758f; }
+.mongodb-btn { background: #4db33d; box-shadow: 0 0 15px #4db33d; }
+.express-btn { background: #333; box-shadow: 0 0 15px #333; }
+.node-btn { background: #68a063; box-shadow: 0 0 15px #68a063; }
+.firebase-btn { background: #ffca28; color: black; box-shadow: 0 0 15px #ffca28; }
+
+.git-btn { background: #f14e32; box-shadow: 0 0 15px #f14e32; }
+.github-btn { background: #24292e; box-shadow: 0 0 15px #24292e; }
+.netlify-btn { background: #00c7b7; box-shadow: 0 0 15px #00c7b7; }
+
+/* Hover effect */
+button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}

@@ -1,0 +1,57 @@
+
+
+.pro-continor {
+    background: #0f172a;
+    padding: 50px 20px;
+    min-height: 80vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pro-h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #38bdf8, #818cf8, #f472b6);
+    
+    -webkit-text-fill-color: transparent;
+}
+
+.pro-p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #94a3b8;
+}
+
+.all-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pro-card1, .pro-card2,.pro-card3 ,.pro-card4 {
+    background: #1e293b;
+    width: 300px;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(56, 191, 248, 0.305);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.pro-card1:hover, .pro-card2:hover, .pro-card3:hover , .pro-card4:hover {
+     transform: translateY(-5px);
+  
+    box-shadow: 0 0 30px rgba(56,189,248,0.4);
+}
+
+.pro-card1 h2, .pro-card2 h2, .pro-card3 h2 , .pro-card4 h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #38bdf8;
+}
+
